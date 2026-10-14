@@ -1,0 +1,11 @@
+Test scenario ,Test case ,Pre condition ,Test steps ,Test data ,Expected results ,Actual results ,Pass/Fail 
+check login functionality ,check response and entering valid Agent name and password ,Flight reservation Application must be installed ,Lounch Application ,Agent name Azra Ismail ,Login Must be successful ,Login successful ,Pass
+,,,,,,,
+,,,,,,,
+,,,Enter Agent name ,,,,
+,,,,,,,
+,,,,,,,
+,,,Enter Password ,Agent Password 15688,,,
+,,,,,,,
+,,,,,,,
+,,,Click ok button ,,,,
