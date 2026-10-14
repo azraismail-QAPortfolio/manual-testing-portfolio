@@ -1,0 +1,4 @@
+Bug Report,,,,,
+Bug ID,Title / Summary,Steps to Reproduce,Expected Result,Actual Result,Status
+BUG-01,Name field accepts numeric characters,1. Go to PIM > Add Employee2. Enter First Name as 1233. Click Save,System should throw validation error,System successfully saved employee profile with numeric name,Open
+BUG-02,Employee ID accepts alphabets,1. Go to PIM > Add Employee2. Enter Employee ID as abcd3. Click Save,System should restrict or throw error for non-numeric ID,System accepted abcd as valid ID,Open
