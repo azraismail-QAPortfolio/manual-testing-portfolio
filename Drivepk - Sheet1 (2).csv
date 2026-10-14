@@ -1,0 +1,6 @@
+QA Bug Report,,,,,,,,,,
+Project: Drivepk.com,,,,,,,,,,
+Bug Title,Title/Summary,Steps to Reproduce,Expected Result,Actual Result,Severity/Priority,Assigned,Device ,Reported to ,Module,Dtae Logged
+BUG-001,"Irrelevant car results displayed when searching with a human name (""Anza"")",Open DrivePK cars listing page,The system should display No error fund and asked to user rainforce the qurrey,System display the cars when we click the search bar by the human name Anza,Mediam/Mediam,Developer,Browser,QA,Search cars,2026-07-29
+,,Type Anza in the main search bar,,,,,,,,
+,,Click on the search button,,,,,,,,
