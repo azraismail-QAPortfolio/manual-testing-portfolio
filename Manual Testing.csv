@@ -1,0 +1,14 @@
+Regression Testing,,,,,,,
+Test Case Id,Test Scenario,Pre Condition,Test Data,Test Steps,Expected Result,Actual Result ,Status
+REG-001,Verify Login with valid Username and Password ,User Should Have registered credentials and Redirect on the Dashboard,Valid Username + Valid Password,Go to Login Page ,User should be successful logged in and redirect on the dashboard,User was able to login and redirect on the dash board,Pass
+,,,,Enter Valid Username ,,,
+,,,,Enter Valid Password,,,
+,,,,Click Login Button,,,
+REG-002,Verify with vaild username and empty password,User Should Have registered credentials and Redirect on the Dashboard,Valid Username +Empty Password,Go to Login Page ,"System should not allow login and should display an appropriate error message, e.g. ""Required Password""","System did not allow login and displayed ""Required Password""",Pass
+,,,,Enter Valid Username ,,,
+,,,,Enter Empty Password,,,
+,,,,Click Login Button,,,
+REG-003,Verify with empty Username and Vaild Password,User Should Have Registered Credentials and Redirect On the Dashboard,Empty Username + Vaild Password,Go to Login Page ,"System should not allow login and should display an appropriate error message, e.g. ""Required Username""","System did not allow login and displayed ""Required Username""",Pass
+,,,,Enter Empty Username,,,
+,,,,Enter Vaild Password,,,
+,,,,Click Login Button,,,
